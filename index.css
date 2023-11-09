@@ -1,6 +1,10 @@
 body {
   background-color: rgba(255, 166, 0, 0.625);
 }
+a {
+  color: black;
+  text-decoration: none;
+}
 .heading-title {
   text-align: center;
   color: white;
@@ -23,6 +27,16 @@ body {
   padding: 20px;
   width: 200px;
 }
-.flex > div:hover {
+.flex > a > div {
+  background-color: greenyellow;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+.flex > a > div:hover {
   background-color: rgb(65, 203, 27);
+}
+.google {
+  background-color: red;
 }
